@@ -1,9 +1,10 @@
 body {
 	background: #EFEFBB;
-	background: linear-gradient(to right, rgb(197, 230, 236), rgb(239, 187, 230));
+	background: linear-gradient(to right, rgb(241, 156, 162),rgb(248, 215, 208), rgb(184, 179, 219));
 	color: white;
 	margin: 0;
-	font-family: rubik;
+	font-family: 'Press Start 2P', cursive;
+	
 }
 
 .container {
@@ -33,13 +34,13 @@ h1 {
 }
 
 .card::after {
-	content: "";
+  content: "";
   display: block;
   width: 50%;
   height: 45%;
   border-radius: 100%;
   background-color: #fff;
-  opacity: .7;
+  opacity: .3;
   position: absolute;
   top: 15%;
   left: 25%;
@@ -106,13 +107,13 @@ h1 {
 }
 
 .card:hover {
-	animation: bounce 0.5s linear;
+	animation: bounce 0.7s linear;
 }
 
 .card-title {
 	text-transform: capitalize;
 	margin-bottom: 0px;
-	font-size: 32px;
+	font-size: 22px;
 	font-weight: normal;
 	position: relative;
 	z-index: 2;
